@@ -1,0 +1,30 @@
+
+# Python virtual environments
+backend/.venv/
+backend/.venv-deploy-test/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# WebStorm
+.idea/
+
+# Reference repository
+reference-trashnet/
+
+# Model checkpoints
+*.pth
+*.pt
+
+# macOS
+.DS_Store
